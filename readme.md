@@ -59,3 +59,38 @@ The website site is designed to be accessed and responsive to make it simple for
 8. - GitPod:]
 
 CHECK ABOVE
+
+## Testing 🔥
+
+The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+
+- Screenshots for all css and html tests - [Here](INSERT)
+- Screenshot for Lighthouse report - [Here](INSERT)
+- W3C Markup Validator - Full Saved Result Files and Resolutions -[Here](INSERT)
+  - Duplicate class error resolved easily by removing duplicates within the class element
+  - H3 error as it was within a table. H3 moved to the line above the start of the table tag to resolve the issue
+- W3C CSS Validator - Full Saved Result Files and Resolutions - [Here](INSERT)
+  - Missing semi colon from a linear gradient media query. Semi colon added to resolve issue
+- Lighthouse SEO - Full Saved Result Files and Resolutions - [Here](INSERT)
+  - Accessability, performance and best practice all 90% and above.
+
+ADD JS LINT, TIME CONSTRAINTS AND AUTOMATED TESTING
+
+## Further Testing 🔥
+
+- Predominantly female friends & family (4 girls and their friends) were used to test the website and to provide user experience feedback. My son who is also learning to code also provided feedback on the website.
+- The website was tested on Mozilla, Google Chrome, Safari, Microsoft Edge, and Internet Explorer browsers
+- Testing was carried out thoroughly on external/internal links to ensure they all opened to a new tab.
+- The website was viewed on a variety of mobiles, laptop and desktops.
+- My mentor also provided valued feedback on the project.
+
+### Visitor Goals 🔥
+
+1. As a user, I want to easily understand the main purpose of the site and find the weather easily
+2. Sign up through a modal (popup) and receive an email confirming the user details and a thank you message.
+3. Visually access all key weather details for the users chosen city location.
+4. Navigate intuitively through the site to find key information
+5. Provide key information to encourage the user to look at the recommended sites
+6. Easy access to the recommended sites.
+
+EVIDENCE THESE WITH EMBEDDED IMAGES
