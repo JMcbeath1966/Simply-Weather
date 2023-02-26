@@ -153,3 +153,16 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 ### Content and Problem Solving 🔥
 
 The remainder of the code is my own work
+
+### Media 🔥
+
+Images provided by:
+
+AMEND DETAILS
+
+INSERT
+
+### Acknowledgements 🔥
+
+Thanks for my Code Institute Tutor (Rachel Furlong) and my mentor (Jubril Akolade) for their encouragment and advice.
+
