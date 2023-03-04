@@ -20,3 +20,20 @@ create arrays for months and days
 function for dates, year etc.
 
 */
+
+const api = {
+    key: "8afe3279994cbd73dbc74066c796d2b9",
+    baseurl: "https://api.openweathermap.org/data/2.5/"
+}
+
+const formBox = document.querySelector('.form-control');
+formBox.addEventListener('keypress', setQuery);
+
+function setQuery(e)   {
+    if (e.keyCode === 13) {
+        //getResults(formBox. value);
+        console.log(formBox. value);
+    }
+}
+
+
