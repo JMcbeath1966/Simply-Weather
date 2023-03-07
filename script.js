@@ -58,5 +58,4 @@ function getResults (query) {
     let tempRange = document.querySelector('.temp-range'); //What dies this line do? Answer: It selects the class temp-range from the html file
      //What dies this line do? Answer: It selects the class temp-range from the html file
     tempRange.innerText = `${Math.round(weather.main.temp_min)}°c / ${Math.round(weather.main.temp_max)}°c`; //What dies this line do? Answer: It sets the inner text of the tempRange variable to the min and max temperature of the weather variable. What does the main mean
-
 }
