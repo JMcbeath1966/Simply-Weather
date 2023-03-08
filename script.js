@@ -33,8 +33,7 @@ formBox.addEventListener('keypress', setQuery);
 
 function setQuery(e)   {
     if (e.keyCode === 13) {
-        //getResults(formBox. value);
-        console.log(formBox. value);
+        getResults(formBox. value);
     }
 }
 
@@ -53,14 +52,13 @@ function getResults (query) {
     let date = document.querySelector('.location .date');
     date.innerText = dateBuilder(now);
   
-    let temp = document.querySelector('.current .temp');
+    let temp = document.querySelector('.temp');
     temp.innerHTML = `${Math.round(weather.main.temp)}<span>°c</span>`;
   
-    let weather_el = document.querySelector('.current .weather');
-    weather_el.innerText = weather.weather[0].main;
-  
-    let hilow = document.querySelector('.hi-low');
-    hilow.innerText = `${Math.round(weather.main.temp_min)}°c / ${Math.round(weather.main.temp_max)}°c`;
+    let weather_el = document.querySelector('.weather-type'); 
+    weather_el.innerText = weather.weather[0].main; 
+    let tempRange = document.querySelector('.temp-range'); 
+    tempRange.innerText = `${Math.round(weather.main.temp_min)}°c / ${Math.round(weather.main.temp_max)}°c`;
   }
   
   function dateBuilder (d) {
