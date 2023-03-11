@@ -61,15 +61,21 @@ CHECK ABOVE
 
 ## Testing 🔥
 
+## HTML, CSS and SEO Testing 🔥
+
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
-- W3C Markup Validator - Saved Result Files and Resolutions -[Here](INSERT)
+- W3C Markup Validator - Saved Result Files and Resolutions -[Here](https://github.com/JMcbeath1966/Simply-Weather/blob/main/validation/w3c-html-results.png)
   - Duplicate class error resolved easily by removing duplicates within the class element
   - H3 error as it was within a table. H3 moved to the line above the start of the table tag to resolve the issue
-- W3C CSS Validator - Saved Result Files and Resolutions - [Here](INSERT)
+- W3C CSS Validator - Saved Result Files and Resolutions - [Here](https://github.com/JMcbeath1966/Simply-Weather/blob/main/validation/w3c-css-results.png)
   - Missing semi colon from a linear gradient media query. Semi colon added to resolve issue
-- Lighthouse SEO - Saved Result Files and Resolutions - [Here]()
+- Lighthouse SEO - Saved Result Files and Resolutions - [Here](https://github.com/JMcbeath1966/Simply-Weather/blob/main/validation/seo-lighthouse-sw.png)
   - Accessability, performance and best practice all 91% and above.
+
+## Javascript Testing 🔥
+
+
 
 ADD JS LINT, TIME CONSTRAINTS AND AUTOMATED TESTING
 
