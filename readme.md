@@ -36,8 +36,7 @@ The website site is designed to be accessed and responsive to make it simple for
 
 ## Wireframes 🔥
 
-- [Starting wireframe designs](INSERT)
-- [Final version wireframe](INSERT)
+- [Balsamic wireframe designs](INSERT)
 
 ## Technologies Used 🔥
 
