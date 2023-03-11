@@ -2,7 +2,7 @@
 
 - [View the live project here](https://jmcbeath1966.github.io/Simply-Weather/)
 
-- Mock Up Design ![Here](INSERT)
+- Mock Up Design ![Here](https://github.com/JMcbeath1966/Simply-Weather/blob/main/images/all-devices-black.png)
 
 ## Project Overview 🔥
 
@@ -63,12 +63,12 @@ CHECK ABOVE
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
-- W3C Markup Validator - Full Saved Result Files and Resolutions -[Here](INSERT)
+- W3C Markup Validator - Saved Result Files and Resolutions -[Here](INSERT)
   - Duplicate class error resolved easily by removing duplicates within the class element
   - H3 error as it was within a table. H3 moved to the line above the start of the table tag to resolve the issue
-- W3C CSS Validator - Full Saved Result Files and Resolutions - [Here](INSERT)
+- W3C CSS Validator - Saved Result Files and Resolutions - [Here](INSERT)
   - Missing semi colon from a linear gradient media query. Semi colon added to resolve issue
-- Lighthouse SEO - Full Saved Result Files and Resolutions - [Here]()
+- Lighthouse SEO - Saved Result Files and Resolutions - [Here]()
   - Accessability, performance and best practice all 91% and above.
 
 ADD JS LINT, TIME CONSTRAINTS AND AUTOMATED TESTING
