@@ -52,8 +52,10 @@ The website site is designed to be accessed and responsive to make it simple for
    - Photoshop was used to resize images and editing photos for the website.
 6. [Balsamiq:](https://balsamiq.com/)
    - Balsamiq was used to create the during the design process. [Live Balsamic website](https://balsamiq.cloud/se8movd/pumvola)
-7. [Code Institute Template:] ()
-8. - GitPod:]
+7. [Code Institute Template:](https://codeinstitute.net/)
+   - The template was used to provide various libraries to simplify coding within GitPod
+8. [GitPod](https://www.gitpod.io/)
+   - GitPod was used for version control, storage and deployment of the Simply Weather site
 
 CHECK ABOVE
 
