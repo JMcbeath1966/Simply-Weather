@@ -159,12 +159,6 @@ The remainder of the code is my own work
 
 ### Media 🔥https://github.com/JMcbeath1966/Simply-Weather.git
 
-Images provided by:
-
-AMEND DETAILS
-
-INSERT
-
 ### Acknowledgements 🔥
 
 Thanks for my Code Institute Tutor (Rachel Furlong) and my mentor (Jubril Akolade) for their encouragment and advice.
