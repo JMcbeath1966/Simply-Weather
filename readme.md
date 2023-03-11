@@ -14,9 +14,9 @@ The website site is designed to be accessed and responsive to make it simple for
 
 - Visit goals
 
-  - Sign up through a modal (popup) and receive an email confirming the user details and a thank you message.
-  - Visually access all key weather details for the users chosen city location.
-  - Navigate intuitively through the site to find key information
+  - Prominent search function to enter city at the earliest opportunity
+  - Visually access a range of key weather details for the users chosen city location.
+  - Navigate intuitively through the site to find key information about the weather related topics
   - Provide key information to encourage the user to look at the recommended sites
   - Easy access to the recommended sites.
 
@@ -24,17 +24,15 @@ The website site is designed to be accessed and responsive to make it simple for
 
 * Color Scheme
 
-  - The colors are:
-
-  - INSERT
+  - White will be the only color used for text and icons. Default color will be the only exception as this will use the default color.
 
 * Typography
 
-  - The font-family is: 'Lato', sans-serif; 'Oswald', sans-serif; - this is used as it is a modern, and popular font.
+  - The font-family is: font-family: 'Golos Text', sans-serif which has clean, modern style.
 
 * Imagery Design
 
-  - The imagery is designed to be striking and catch the user's attention. The images are also mainly images of groups of players (where possible) to reinforce the atmosphere of team games
+  - The imagery is designed to be striking and catch the user's attention, but not distract too much from the content, hence a subtle linear gradient has been applied
 
 ## Wireframes 🔥
 
