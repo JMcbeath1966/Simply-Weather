@@ -36,7 +36,7 @@ The website site is designed to be accessed and responsive to make it simple for
 
 ## Wireframes 🔥
 
-- [Balsamic wireframe designs](INSERT)
+- [Balsamic wireframe designs - live link](https://balsamiq.cloud/se8movd/pg4vl36/r1744)
 
 ## Technologies Used 🔥
 
@@ -51,7 +51,7 @@ The website site is designed to be accessed and responsive to make it simple for
 5. [Photoshop:](https://www.adobe.com/ie/products/photoshop.html)
    - Photoshop was used to resize images and editing photos for the website.
 6. [Balsamiq:](https://balsamiq.com/)
-   - Balsamiq was used to create the during the design process. [Live Balsamic website](https://balsamiq.cloud/se8movd/pumvola)
+   - Balsamiq was used to create the during the design process.
 7. [Code Institute Template:](https://codeinstitute.net/)
    - The template was used to provide various libraries to simplify coding within GitPod
 8. [GitPod](https://www.gitpod.io/)
