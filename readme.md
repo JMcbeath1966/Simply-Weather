@@ -63,7 +63,7 @@ CHECK ABOVE
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
-- Screenshots for all css and html tests - [Here](INSERT)
+- Screenshots for all css and html tests - [Here](https://github.com/JMcbeath1966/Simply-Weather/blob/main/lighthhouse-seo/lighthouse-seo-report.html)
 - Screenshot for Lighthouse report - [Here](INSERT)
 - W3C Markup Validator - Full Saved Result Files and Resolutions -[Here](INSERT)
   - Duplicate class error resolved easily by removing duplicates within the class element
