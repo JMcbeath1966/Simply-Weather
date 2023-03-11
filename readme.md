@@ -1,6 +1,6 @@
 # Simply Weather 🔥
 
-- [View the live project here](INSERT)
+- [View the live project here](https://jmcbeath1966.github.io/Simply-Weather/)
 
 - Mock Up Design ![Here](INSERT)
 
