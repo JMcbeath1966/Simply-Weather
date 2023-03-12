@@ -79,11 +79,11 @@ My choice of project is a realtively simple to code appication with manual testi
 1. - Firstly, I wanted to produce a project using my own code to the largest possible extent and not to copy code from external sources unless absolutely needed. 
 2. - Secondly, A project with simpler code would also require less testing, and due a restricted time line (two weeks to produce the whole project) I did not have the time required to produce automated testing.
 
-I fully understand that, in a real development environment, automated testing is an essential element to testing and I would definitely use JEST had time allowed. I will ensure my following projects have automated testing included as appropriate to the project.
+I fully understand that, in a real development environment, automated testing is an essential element to testing and I would definitely use JEST had time allowed. I will ensure my following projects have automated testing included as appropriate to the project. Automated testing is efficient, faster, and more accurate than manual testing, and it's ideal for testing complex applications. Automated testing is also repeatable, meaning that the same tests can be run multiple times to ensure that the code is working as intended. 
 
-COMPARISON BETWEEN MANUAL AND AUTOMATED TESTING
+Manual testing requires a lot of effort and time, and it's prone to human errors. However, manual testing is flexible and allows testers to identify issues that might be missed by automated testing. I understand manual testing can lead to high error rates, but for the reasons I have already stated in this section I think that manual testing is the right solution within the context of my abiities as a coder, the project simplicity and the constraints of timescales for the project to be completed
 
- - ES Lint Results
+ - JSLint Testing and Results
 
 The approach adopted was to identify any critical errors in code and correct them one by one. 
  - There was only one error which was the baseurl code was mistakenly entered as just base. I corrected this during production and committed the change with comments supporting the correction.
@@ -93,8 +93,7 @@ Then work on any warnings would be corrected individually. Screenshots bellow sh
   The first correction was to change single quotation marks to double quotation marks which has been corrected - [Here](https://github.com/JMcbeath1966/Simply-Weather/blob/main/validation/jslint-test1-sw.png)
   - Second issue resolved was trailing spaces between lines of code. Removed as required - [Here](https://github.com/JMcbeath1966/Simply-Weather/blob/main/validation/jslint-test2-sw.png)
   - Third issue was trailing spaces at the end of code lines - [Here](https://github.com/JMcbeath1966/Simply-Weather/blob/main/validation/jslint-test3-sw.png)
-  - Issue four was correcting the message (Wrap the parameter before '=>' in parens.) - The weather variable had no parethesis, and whilst this had seemingly no impact on performance, this has been corrected with the parenthesis applied correctly around the variable - [Here](https://github.com/JMcbeath1966/Simply-Weather/blob/main/validation/jslint-test4-sw.png)
-
+  - Issue four was correcting the message (Wrap the parameter before '=>' in parens.) - The weather variable had no parethesis, and whilst this had seemingly no impact on performance, the error still shows. I have tried to use StackOverflow and ESLint sites to correct this but as performance is not impacted in the use of the site I decided to make no amendments to the script.js code - [Here](https://github.com/JMcbeath1966/Simply-Weather/blob/main/validation/jslint-test4-sw.png)
 
 ## Further Testing 🔥
 
@@ -103,6 +102,7 @@ Then work on any warnings would be corrected individually. Screenshots bellow sh
 - Testing was carried out thoroughly on external/internal links to ensure they all opened to a new tab.
 - The website was viewed on a variety of mobiles, laptop and desktops.
 - My mentor also provided valued feedback on the project.
+- One significant issue that reamins in the application due to time constraints is a message to notify users that if a city does not come up becuase there is more than one city with the same name, then a message should be used to say to try adding a country name to the city, seperated with a comma to get the result in the country you want!
 
 ### Visitor Goals 🔥
 
