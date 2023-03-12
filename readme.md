@@ -90,10 +90,10 @@ The approach adopted was to identify any critical errors in code and correct the
 
 Then work on any warnings would be corrected individually. Screenshots bellow show JSLint after corrections.
   - The first js lint produced 0 errors, but did include 23 warnings 
-  The first correction was to change single quotation marks to double quotation marks which has been corrected - [Here](INSERT)
-  - Second issue resolved was trailing spaces between lines of code. Removed as required - [Here](INSERT)
-  - Third issue was trailing spaces at the end of code lines - [Here](INSERT)
-  - Issue four was correcting the message (Wrap the parameter before '=>' in parens.) - The weather variable had no parethesis, and whilst this had seemingly no impact on performance, this has been corrected with the parenthesis applied correctly around the variable - [Here](INSERT)
+  The first correction was to change single quotation marks to double quotation marks which has been corrected - [Here](https://github.com/JMcbeath1966/Simply-Weather/blob/main/validation/jslint-test1-sw.png)
+  - Second issue resolved was trailing spaces between lines of code. Removed as required - [Here](https://github.com/JMcbeath1966/Simply-Weather/blob/main/validation/jslint-test2-sw.png)
+  - Third issue was trailing spaces at the end of code lines - [Here](https://github.com/JMcbeath1966/Simply-Weather/blob/main/validation/jslint-test3-sw.png)
+  - Issue four was correcting the message (Wrap the parameter before '=>' in parens.) - The weather variable had no parethesis, and whilst this had seemingly no impact on performance, this has been corrected with the parenthesis applied correctly around the variable - [Here](https://github.com/JMcbeath1966/Simply-Weather/blob/main/validation/jslint-test4-sw.png)
 
 
 ## Further Testing 🔥
@@ -116,7 +116,7 @@ EVIDENCE THESE WITH EMBEDDED IMAGES
 
 ## Deployment 🔥
 
-ADD HERE
+Site is deployed using GitHub pages and is live now.
 
 ### GitHub Pages 
 
