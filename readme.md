@@ -81,7 +81,9 @@ My choice of project is a realtively simple to code appication with manual testi
 
 I fully understand that, in a real development environment, automated testing is an essential element to testing and I would definitely use JEST had time allowed. I will ensure my following projects have automated testing included as appropriate to the project.
 
-ES Lint Results
+COMPARISON BETWEEN MANUAL AND AUTOMATED TESTING
+
+ - ES Lint Results
 
 The approach adopted was to identify any critical errors in code and correct them one by one. 
  - There was only one error which was the baseurl code was mistakenly entered as just base. I corrected this during production and committed the change with comments supporting the correction.
@@ -114,7 +116,7 @@ EVIDENCE THESE WITH EMBEDDED IMAGES
 
 ## Deployment 🔥
 
-
+ADD HERE
 
 ### GitHub Pages 
 
