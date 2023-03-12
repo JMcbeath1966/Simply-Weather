@@ -102,15 +102,15 @@ Then work on any warnings would be corrected individually. Screenshots bellow sh
 - Testing was carried out thoroughly on external/internal links to ensure they all opened to a new tab.
 - The website was viewed on a variety of mobiles, laptop and desktops.
 - My mentor also provided valued feedback on the project.
-- One significant issue that reamins in the application due to time constraints is a message to notify users that if a city does not come up becuase there is more than one city with the same name, then a message should be used to say to try adding a country name to the city, seperated with a comma to get the result in the country you want!
+- One significant issue that reamins in the application (due to time constraints) is a message to notify users that if a city does not come up becuase there is more than one city with the same name, then a message should be used to say to try adding a country name to the city, seperated with a comma to get the result in the country you want!
 
 ### Visitor Goals 🔥
 
-1. As a user, I want to easily understand the main purpose of the site and find the weather easily - [Here] (INSERT)
-3. Visually access all key weather details for the users chosen city location. - [Here] (INSERT)
-4. Navigate intuitively through the site to find key information - [Here] (INSERT)
-5. Provide key information to encourage the user to look at the recommended sites - [Here] (INSERT)
-6. Easy access to the recommended sites. - [Here] (INSERT)
+1. As a user, I want to easily understand the main purpose of the site and find the weather easily - [Here] (https://github.com/JMcbeath1966/Simply-Weather/blob/main/images/user-experience-1.png)
+3. Visually access all key weather details for the users chosen city location. - [Here] (https://github.com/JMcbeath1966/Simply-Weather/blob/main/images/user-experience-1.png)
+4. Navigate intuitively through the site to find key information - [Here] (https://github.com/JMcbeath1966/Simply-Weather/blob/main/images/user-experience-2.png)
+5. Provide key information to encourage the user to look at the recommended sites - [Here] (https://github.com/JMcbeath1966/Simply-Weather/blob/main/images/user-experience-2.png)
+6. Easy access to the recommended sites. - [Herw] (https://github.com/JMcbeath1966/Simply-Weather/blob/main/images/user-experience-2.png)
 
 EVIDENCE THESE WITH EMBEDDED IMAGES
 
@@ -172,6 +172,8 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 - Bootstrap4: Bootstrap Library used throughout the project to make site responsive using the Bootstrap Grid System.
 
 ### Content and Problem Solving 🔥
+
+The function getResults (Query) was produced using a StackOverflow solution to the fetch, then syntax
 
 The remainder of the code is my own work
 
