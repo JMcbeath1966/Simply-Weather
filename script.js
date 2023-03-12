@@ -1,6 +1,6 @@
 const api = {
   baseurl: "https://api.openweathermap.org/data/2.5/",
-  key: "8afe3279994cbd73dbc74066c796d2b9", 
+  key: "8afe3279994cbd73dbc74066c796d2b9" 
 }
 const formBox = document.querySelector(".form-control");
 formBox.addEventListener("keypress", setQuery);
