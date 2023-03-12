@@ -66,22 +66,37 @@ CHECK ABOVE
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
 - W3C Markup Validator - Saved Result Files and Resolutions -[Here](https://github.com/JMcbeath1966/Simply-Weather/blob/main/validation/w3c-html-results.png)
-  - Duplicate class error resolved easily by removing duplicates within the class element
-  - H3 error as it was within a table. H3 moved to the line above the start of the table tag to resolve the issue
+  - Error produced on trailing slashes on void elements. These were removed as the can act badly with attribute values.
 - W3C CSS Validator - Saved Result Files and Resolutions - [Here](https://github.com/JMcbeath1966/Simply-Weather/blob/main/validation/w3c-css-results.png)
-  - Missing semi colon from a linear gradient media query. Semi colon added to resolve issue
+  - No errors
 - Lighthouse SEO - Saved Result Files and Resolutions - [Here](https://github.com/JMcbeath1966/Simply-Weather/blob/main/validation/seo-lighthouse-sw.png)
   - Accessability, performance and best practice all 91% and above.
 
 ## Javascript Testing 🔥
 
+My choice of project is a realtively simple to code appication with manual testing, and this decision was based on three key factors:
 
+1. - Firstly, I wanted to produce a project using my own code to the largest possible extent and not to copy code from external sources unless absolutely needed. 
+2. - Secondly, A project with simpler code would also require less testing, and due a restricted time line (two weeks to produce the whole project) I did not have the time required to produce automated testing.
 
-ADD JS LINT, TIME CONSTRAINTS AND AUTOMATED TESTING
+I fully understand that, in a real development environment, automated testing is an essential element to testing and I would definitely use JEST had time allowed. I will ensure my following projects have automated testing included as appropriate to the project.
+
+ES Lint Results
+
+The approach adopted was to identify any critical errors in code and correct them one by one. 
+ - There was only one error which was the baseurl code was mistakenly entered as just base. I corrected this during production and committed the change with comments supporting the correction.
+
+Then work on any warnings would be corrected individually. Screenshots bellow show JSLint after corrections.
+  - The first js lint produced 0 errors, but did include 23 warnings 
+  The first correction was to change single quotation marks to double quotation marks which has been corrected - [Here](INSERT)
+  - Second issue resolved was trailing spaces between lines of code. Removed as required - [Here](INSERT)
+  - Third issue was trailing spaces at the end of code lines - [Here](INSERT)
+  - Issue four was correcting the message (Wrap the parameter before '=>' in parens.) - The weather variable had no parethesis, and whilst this had seemingly no impact on performance, this has been corrected with the parenthesis applied correctly around the variable - [Here](INSERT)
+
 
 ## Further Testing 🔥
 
-- Predominantly female friends & family (4 girls and their friends) were used to test the website and to provide user experience feedback. My son who is also learning to code also provided feedback on the website.
+- Predominantly friends & family (total 8 users) were asked to use and test the website and to provide user experience feedback. My son who is also learning to code also provided feedback on the website.
 - The website was tested on Mozilla, Google Chrome, Safari, Microsoft Edge, and Internet Explorer browsers
 - Testing was carried out thoroughly on external/internal links to ensure they all opened to a new tab.
 - The website was viewed on a variety of mobiles, laptop and desktops.
@@ -89,18 +104,19 @@ ADD JS LINT, TIME CONSTRAINTS AND AUTOMATED TESTING
 
 ### Visitor Goals 🔥
 
-1. As a user, I want to easily understand the main purpose of the site and find the weather easily
-2. Sign up through a modal (popup) and receive an email confirming the user details and a thank you message.
-3. Visually access all key weather details for the users chosen city location.
-4. Navigate intuitively through the site to find key information
-5. Provide key information to encourage the user to look at the recommended sites
-6. Easy access to the recommended sites.
+1. As a user, I want to easily understand the main purpose of the site and find the weather easily - [Here] (INSERT)
+3. Visually access all key weather details for the users chosen city location. - [Here] (INSERT)
+4. Navigate intuitively through the site to find key information - [Here] (INSERT)
+5. Provide key information to encourage the user to look at the recommended sites - [Here] (INSERT)
+6. Easy access to the recommended sites. - [Here] (INSERT)
 
 EVIDENCE THESE WITH EMBEDDED IMAGES
 
 ## Deployment 🔥
 
-### GitHub Pages
+
+
+### GitHub Pages 
 
 The project was deployed to GitHub Pages using the following steps...
 
