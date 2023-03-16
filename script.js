@@ -17,12 +17,19 @@ function setQuery(e)   {
     }
 }
 
-function getResults (query) { 
-    fetch(`${api.baseurl}weather?q=${query}&units=metric&APPID=${api.key}`)
-      .then(weather => { //code taken from stackoverflow. Amended after manual test. Error found with api.base - should have been baseurl
-        return weather.json();
-      }).then(displayResults);
-  }
+function getResults(query) {
+  fetch(`${api.baseurl}weather?q=${query}&units=metric&APPID=${api.key}`)
+      .then(weather => {
+          if (!weather.ok) {
+              throw new Error('Invalid city name. Please try again! - Cities can have the same name in different countries, e.g Newark, US or Newark, GB');
+          }
+          return weather.json();
+      })
+      .then(displayResults)
+      .catch(error => {
+          alert('Error: ' + error.message);
+      });
+}
   
   function displayResults (weather) {
     let city = document.querySelector('.location .city');
