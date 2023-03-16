@@ -1,4 +1,4 @@
-
+window.onload = function() {
 const api = {
   baseurl: "https://api.openweathermap.org/data/2.5/",
   key: "8afe3279994cbd73dbc74066c796d2b9" 
@@ -30,6 +30,34 @@ function getResults(query) {
           alert('Error: ' + error.message);
       });
 }
+
+function getResultsByCoords(lat, lon) {
+  fetch(`${api.baseurl}weather?lat=${lat}&lon=${lon}&units=metric&APPID=${api.key}`)
+      .then(weather => {
+          if (!weather.ok) {
+              throw new Error('Invalid coordinates');
+          }
+          return weather.json();
+      })
+      .then(displayResults)
+      .catch(error => {
+          alert('Error: ' + error.message);
+      });
+}
+
+function getLocationWeather() {
+  if (navigator.geolocation) {
+      navigator.geolocation.getCurrentPosition(position => {
+          const lat = position.coords.latitude;
+          const lon = position.coords.longitude;
+          getResultsByCoords(lat, lon);
+      }, () => {
+          console.warn('Geolocation permission denied. Falling back to default location.');
+      });
+  } else {
+      console.warn('Geolocation not supported by the browser. Falling back to default location.');
+  }
+}
   
   function displayResults (weather) {
     let city = document.querySelector('.location .city');
@@ -53,4 +81,6 @@ function getResults(query) {
     let year = d.getFullYear();
     return `${day} ${date} ${month} ${year}`;
 }
-  
+
+getLocationWeather();
+}
