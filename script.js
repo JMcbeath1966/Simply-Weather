@@ -1,3 +1,4 @@
+
 const api = {
   baseurl: "https://api.openweathermap.org/data/2.5/",
   key: "8afe3279994cbd73dbc74066c796d2b9" 
@@ -7,17 +8,24 @@ formBox.addEventListener("keypress", setQuery);
 
 function setQuery(e)   {
     if (e.keyCode === 13) {
+      if(formBox.value.trim() === '') {
+        alert('Please enter a city name');
         getResults(formBox. value);
+      } else {
+        getResults(formBox.value)
+      }
     }
 }
+
 function getResults (query) { 
     fetch(`${api.baseurl}weather?q=${query}&units=metric&APPID=${api.key}`)
-      .then(weather => {
+      .then(weather => { //code taken from stackoverflow. Amended after manual test. Error found with api.base - should have been baseurl
         return weather.json();
       }).then(displayResults);
-}
-function displayResults (weather) {
-    let city = document.querySelector(".location .city");
+  }
+  
+  function displayResults (weather) {
+    let city = document.querySelector('.location .city');
     city.innerText = `${weather.name}, ${weather.sys.country}`
     let now = new Date();
     let date = document.querySelector(".location .date");
