@@ -3,6 +3,7 @@ const api = {
   baseurl: "https://api.openweathermap.org/data/2.5/",
   key: "8afe3279994cbd73dbc74066c796d2b9" 
 }
+
 const formBox = document.querySelector(".form-control");
 formBox.addEventListener("keypress", setQuery);
 
@@ -17,8 +18,8 @@ function setQuery(e)   {
     }
 }
 
-function isNumberValid(value) {
-  return !NumberisNaN(parseFloat(value)) && NumberisFinite(value);
+function isValidNumber(value) {
+  return !isNaN(parseFloat(value)) && isFinite(value);
 }
 
 function getResults(query) {
@@ -76,6 +77,7 @@ function getLocationWeather() {
     let tempRange = document.querySelector(".temp-range"); 
     tempRange.innerText = `${Math.round(weather.main.temp_min)}°c / ${Math.round(weather.main.temp_max)}°c`;
 }
+
   function dateBuilder (d) {
     let months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
     let days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
