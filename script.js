@@ -17,6 +17,10 @@ function setQuery(e)   {
     }
 }
 
+function isNumberValid(value) {
+  return !NumberisNaN(parseFloat(value)) && NumberisFinite(value);
+}
+
 function getResults(query) {
   fetch(`${api.baseurl}weather?q=${query}&units=metric&APPID=${api.key}`)
       .then(weather => {
