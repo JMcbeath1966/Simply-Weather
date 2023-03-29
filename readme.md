@@ -36,7 +36,10 @@ The website site is designed to be accessed and responsive to make it simple for
 
 ## Wireframes 🔥
 
-- Balsamic Wire Frames ![Here](https://github.com/JMcbeath1966/Simply-Weather/blob/main/simply-weather-wireframes.pdf)
+- Balsamic Wire Frames 
+![Here](https://github.com/JMcbeath1966/Simply-Weather/blob/main/images/mobile-view-sw.png)
+![Here](https://github.com/JMcbeath1966/Simply-Weather/blob/main/images/tablet-view-sw.png)
+![Here](https://github.com/JMcbeath1966/Simply-Weather/blob/main/images/laptop-view-sw.png)
 
 ## Technologies Used 🔥
 
