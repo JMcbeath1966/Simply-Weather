@@ -109,11 +109,11 @@ Then work on any warnings would be corrected individually. Screenshots bellow sh
 
 ### Visitor Goals 🔥
 
-1. As a user, I want to easily understand the main purpose of the site and find the weather easily - ![Here] (https://github.com/JMcbeath1966/Simply-Weather/blob/main/images/user-experience-1.png)
-3. Visually access all key weather details for the users chosen city location. - ![Here] (https://github.com/JMcbeath1966/Simply-Weather/blob/main/images/user-experience-1.png)
-4. Navigate intuitively through the site to find key information - ![Here] (https://github.com/JMcbeath1966/Simply-Weather/blob/main/images/user-experience-2.png)
-5. Provide key information to encourage the user to look at the recommended sites - ![Here] (https://github.com/JMcbeath1966/Simply-Weather/blob/main/images/user-experience-2.png)
-6. Easy access to the recommended sites. - ![Here] (https://github.com/JMcbeath1966/Simply-Weather/blob/main/images/user-experience-2.png)
+1. As a user, I want to easily understand the main purpose of the site and find the weather easily - ![Here](https://github.com/JMcbeath1966/Simply-Weather/blob/main/images/user-experience-1.png)
+3. Visually access all key weather details for the users chosen city location. - ![Here](https://github.com/JMcbeath1966/Simply-Weather/blob/main/images/user-experience-1.png)
+4. Navigate intuitively through the site to find key information - ![Here](https://github.com/JMcbeath1966/Simply-Weather/blob/main/images/user-experience-2.png)
+5. Provide key information to encourage the user to look at the recommended sites - ![Here](https://github.com/JMcbeath1966/Simply-Weather/blob/main/images/user-experience-2.png)
+6. Easy access to the recommended sites. - ![Here](https://github.com/JMcbeath1966/Simply-Weather/blob/main/images/user-experience-2.png)
 
 EVIDENCE THESE WITH EMBEDDED IMAGES
 
@@ -177,6 +177,8 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 ### Content and Problem Solving 🔥
 
 The function getResults (Query) was produced using a StackOverflow solution to the fetch, then syntax
+
+The function for validating numbers was produced by suggestion from my Mentor and code was takedn from Chat GPT4
 
 The remainder of the code is my own work
 
