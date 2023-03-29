@@ -93,10 +93,10 @@ The approach adopted was to identify any critical errors in code and correct the
 
 Then work on any warnings would be corrected individually. Screenshots bellow show JSLint after corrections.
   - The first js lint produced 0 errors, but did include 23 warnings 
-  The first correction was to change single quotation marks to double quotation marks which has been corrected - [Here](https://github.com/JMcbeath1966/Simply-Weather/blob/main/validation/jslint-test1-sw.png)
-  - Second issue resolved was trailing spaces between lines of code. Removed as required - [Here](https://github.com/JMcbeath1966/Simply-Weather/blob/main/validation/jslint-test2-sw.png)
-  - Third issue was trailing spaces at the end of code lines - [Here](https://github.com/JMcbeath1966/Simply-Weather/blob/main/validation/jslint-test3-sw.png)
-  - Issue four was correcting the message (Wrap the parameter before '=>' in parens.) - The weather variable had no parethesis, and whilst this had seemingly no impact on performance, the error still shows. I have tried to use StackOverflow and ESLint sites to correct this but as performance is not impacted in the use of the site I decided to make no amendments to the script.js code - [Here](https://github.com/JMcbeath1966/Simply-Weather/blob/main/validation/jslint-test4-sw.png)
+  The first correction was to change single quotation marks to double quotation marks which has been corrected - ![Here](https://github.com/JMcbeath1966/Simply-Weather/blob/main/validation/jslint-test1-sw.png)
+  - Second issue resolved was trailing spaces between lines of code. Removed as required - ![Here](https://github.com/JMcbeath1966/Simply-Weather/blob/main/validation/jslint-test2-sw.png)
+  - Third issue was trailing spaces at the end of code lines - ![Here](https://github.com/JMcbeath1966/Simply-Weather/blob/main/validation/jslint-test3-sw.png)
+  - Issue four was correcting the message (Wrap the parameter before '=>' in parens.) - The weather variable had no parethesis, and whilst this had seemingly no impact on performance, the error still shows. I have tried to use StackOverflow and ESLint sites to correct this but as performance is not impacted in the use of the site I decided to make no amendments to the script.js code - ![Here](https://github.com/JMcbeath1966/Simply-Weather/blob/main/validation/jslint-test4-sw.png)
 
 ## Further Testing 🔥
 
@@ -109,11 +109,11 @@ Then work on any warnings would be corrected individually. Screenshots bellow sh
 
 ### Visitor Goals 🔥
 
-1. As a user, I want to easily understand the main purpose of the site and find the weather easily - [Here] (https://github.com/JMcbeath1966/Simply-Weather/blob/main/images/user-experience-1.png)
-3. Visually access all key weather details for the users chosen city location. - [Here] (https://github.com/JMcbeath1966/Simply-Weather/blob/main/images/user-experience-1.png)
-4. Navigate intuitively through the site to find key information - [Here] (https://github.com/JMcbeath1966/Simply-Weather/blob/main/images/user-experience-2.png)
-5. Provide key information to encourage the user to look at the recommended sites - [Here] (https://github.com/JMcbeath1966/Simply-Weather/blob/main/images/user-experience-2.png)
-6. Easy access to the recommended sites. - [Herw] (https://github.com/JMcbeath1966/Simply-Weather/blob/main/images/user-experience-2.png)
+1. As a user, I want to easily understand the main purpose of the site and find the weather easily - ![Here] (https://github.com/JMcbeath1966/Simply-Weather/blob/main/images/user-experience-1.png)
+3. Visually access all key weather details for the users chosen city location. - ![Here] (https://github.com/JMcbeath1966/Simply-Weather/blob/main/images/user-experience-1.png)
+4. Navigate intuitively through the site to find key information - ![Here] (https://github.com/JMcbeath1966/Simply-Weather/blob/main/images/user-experience-2.png)
+5. Provide key information to encourage the user to look at the recommended sites - ![Here] (https://github.com/JMcbeath1966/Simply-Weather/blob/main/images/user-experience-2.png)
+6. Easy access to the recommended sites. - ![Here] (https://github.com/JMcbeath1966/Simply-Weather/blob/main/images/user-experience-2.png)
 
 EVIDENCE THESE WITH EMBEDDED IMAGES
 
