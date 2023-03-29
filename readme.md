@@ -36,7 +36,7 @@ The website site is designed to be accessed and responsive to make it simple for
 
 ## Wireframes 🔥
 
-- ![Balsamic wireframe designs](https://balsamiq.cloud/se8movd/pg4vl36/r1744)
+- ![Balsamic wireframe designs](https://github.com/JMcbeath1966/Simply-Weather/blob/main/simply-weather-wireframes.pdf)
 
 ## Technologies Used 🔥
 
